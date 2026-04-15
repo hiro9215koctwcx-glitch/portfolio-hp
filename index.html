@@ -503,6 +503,40 @@
         border-radius: 50px;
       }
 
+      .tool-card-footer--stack {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+      }
+      .tool-card-footer--stack .badge-free {
+        align-self: flex-start;
+      }
+      .tool-card-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+      }
+      .tool-card-actions .btn {
+        width: 100%;
+        justify-content: center;
+      }
+      .btn-excel {
+        background: var(--gray-100);
+        color: var(--gray-700);
+        border: 2px solid var(--gray-200);
+        box-shadow: var(--shadow-sm);
+        padding: 10px 22px;
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+      .btn-excel:hover {
+        background: var(--gray-200);
+        border-color: #CBD5E1;
+        opacity: 1;
+        box-shadow: var(--shadow-sm);
+      }
+
       /* ========== Pricing ========== */
       #pricing { background: var(--gray-50); }
 
@@ -888,12 +922,65 @@
               <div class="tool-card-title">HPテンプレート集</div>
             </div>
             <p class="tool-card-desc">
-              個人・企業向け3パターンのHPテンプレート。<br>
-              写真アップロード機能付き・すぐ使える。
+              個人・企業向け3パターンのHPテンプレート。写真アップロード機能付き・すぐ使える。
             </p>
             <div class="tool-card-footer">
               <span class="badge-free">✅ 無料</span>
               <a href="https://hiro9215koctwcx-glitch.github.io/hp-templates/" target="_blank" rel="noopener" class="btn btn-green">無料で使う →</a>
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#FEF3C7;">💰</div>
+            <div>
+              <div class="tool-card-title">お金の見える化シート</div>
+            </div>
+            <p class="tool-card-desc">
+              毎月の収入・支出を入力するだけ。利益とグラフが自動表示されます。
+            </p>
+            <div class="tool-card-footer tool-card-footer--stack">
+              <span class="badge-free">✅ 無料</span>
+              <div class="tool-card-actions">
+                <a href="https://hiro9215koctwcx-glitch.github.io/money-tracker/" target="_blank" rel="noopener" class="btn btn-green">無料で使う →</a>
+                <a href="./お金の見える化シート.xlsx" download class="btn btn-excel">Excelをダウンロード ↓</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 9 -->
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:var(--sky-light);">⏰</div>
+            <div>
+              <div class="tool-card-title">時間の見える化シート</div>
+            </div>
+            <p class="tool-card-desc">
+              週別に入力するだけで、時給換算・売上直結率・無駄時間がわかります。
+            </p>
+            <div class="tool-card-footer tool-card-footer--stack">
+              <span class="badge-free">✅ 無料</span>
+              <div class="tool-card-actions">
+                <a href="https://hiro9215koctwcx-glitch.github.io/time-tracker/" target="_blank" rel="noopener" class="btn btn-green">無料で使う →</a>
+                <a href="./時間の見える化シート.xlsx" download class="btn btn-excel">Excelをダウンロード ↓</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 10 -->
+          <div class="tool-card">
+            <div class="tool-card-icon" style="background:#EDE9FE;">👥</div>
+            <div>
+              <div class="tool-card-title">お客様管理シート</div>
+            </div>
+            <p class="tool-card-desc">
+              顧客情報をステータスで色分け管理。集計・次のアクションも一目でわかります。
+            </p>
+            <div class="tool-card-footer tool-card-footer--stack">
+              <span class="badge-free">✅ 無料</span>
+              <div class="tool-card-actions">
+                <a href="https://hiro9215koctwcx-glitch.github.io/customer-manager/" target="_blank" rel="noopener" class="btn btn-green">無料で使う →</a>
+                <a href="./お客様管理シート.xlsx" download class="btn btn-excel">Excelをダウンロード ↓</a>
+              </div>
             </div>
           </div>
 
